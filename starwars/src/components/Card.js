@@ -18,7 +18,7 @@ const StyledNames = styled.h1`
 `;
 
 export default function Card(props) {
-  console.log("card: props: ", props);
+  // console.log("card: props: ", props);
   return (
     <StyledCards>
       <StyledNames>{props.people.name}</StyledNames>

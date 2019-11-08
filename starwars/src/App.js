@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Card from "./components/Card";
+import Search from './components/Search'
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
           return <Card key={index} people={people} />;
         })}
       </div>
+      <div><Search/></div>
     </div>
   );
 }
